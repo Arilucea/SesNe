@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SesNe</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open menu</string>
+    <string name="navigation_drawer_close" translatable="false">Close menu</string>
+
+
+    <!--Menu lateral-->
+    <string name="NCentral" translatable="false">Main node</string>
+    <string name="NUno" translatable="false">Distributed node 1</string>
+    <string name="NDos" translatable="false">Distributed node 2</string>
+    <string name="NTres" translatable="false">Distributed node 3</string>
+    <string name="NCuatro" translatable="false">Distributed node 4</string>
+    <string name="NCinco" translatable="false">Distributed node 5</string>
+    <string name="NSeis" translatable="false">Distributed node 6</string>
+    <string name="TitConfig" translatable="false">Configuratión</string>
+    <string name="Ajustes" translatable="false">Settings</string>
+    <string name="Conexion" translatable="false">Connection</string>
+
+    <!--MainActivity-->
+    <string name="JustificacionPermiso" translatable="false">This permission is required to use the bluetooth.</string>
+    <string name="BotontParar" translatable="false">Stop</string>
+    <string name="BotontEmpezar" translatable="false">Start search</string>
+    <string name="DispNoTieneBluetooth" translatable="false">Your device doesnot have bluetooth</string>
+    <string name="BluetoothActiv" translatable="false">Bluetooth activated</string>
+    <string name="BusquedaAcabada" translatable="false">Search finished</string>
+    <string name="DispConHeader">Known devices</string>
+    <string name="DispNuevosHeader">New devices</string>
+    <string name="NoDispCon">No known devices</string>
+    <string name="NoDispNuevo">No new devices</string>
+
+    <string name="RecibirDatos">Start receiving</string>
+    <string name="SetConfig">Set</string>
+
+    <!--Menu desplegable-->
+    <string-array name="Redes">
+        <item>Net 1</item>
+    </string-array>
+
+    <!--Titulos activities-->
+    <string name="title_activity_main2" translatable="false">Central node Network 1</string>
+    <string name="title_activity_r2__nodo_cent" translatable="false">Central node Network 2</string>
+    <string name="title_activity_conectar_red" translatable="false">Choose your device</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+
+</resources>

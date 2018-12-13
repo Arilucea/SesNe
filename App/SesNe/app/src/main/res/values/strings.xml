@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SesNe</string>
+
+    <string name="navigation_drawer_open">Abre menu lateral</string>
+    <string name="navigation_drawer_close">Cierra menu lateral</string>
+
+
+    <!--Menu lateral-->
+    <string name="NCentral">Nodo principal</string>
+    <string name="NUno">Nodo distribuido 1</string>
+    <string name="NDos">Nodo distribuido 2</string>
+    <string name="NTres">Nodo distribuido 3</string>
+    <string name="NCuatro">Nodo distribuido 4</string>
+    <string name="NCinco">Nodo distribuido 5</string>
+    <string name="NSeis">Nodo distribuido 6</string>
+    <string name="TitConfig">Configuración</string>
+    <string name="Ajustes">Ajustes</string>
+    <string name="Conexion">Conexión</string>
+
+    <!--MainActivity-->
+    <string name="JustificacionPermiso">El permiso es necesario para utilizar el bluetooth.</string>
+    <string name="BotontParar">Parar</string>
+    <string name="BotontEmpezar">Buscar Dispositivo</string>
+    <string name="DispNoTieneBluetooth">El dispositivo no soporta Bluetooth</string>
+    <string name="BluetoothActiv">El Bluetooth esta activado</string>
+    <string name="BusquedaAcabada">Busqueda finalizada</string>
+    <string name="DispConHeader">Dispositivos conocidos</string>
+    <string name="DispNuevosHeader">Dispositivos nuevos</string>
+    <string name="NoDispCon">No hay dispositivos conocidos</string>
+    <string name="NoDispNuevo">No hay dispositivos nuevos</string>
+
+    <string name="RecibirDatos">Empezar a recibir</string>
+    <string name="SetConfig">Confirmar</string>
+
+    <!--Menu desplegable-->
+    <string-array name="Redes">
+        <item>Red 1</item>
+    </string-array>
+
+    <!--Titulos activities-->
+    <string name="title_activity_main2">Red 1 Nodo Central</string>
+    <string name="title_activity_r2__nodo_cent">Red 2 Nodo Central</string>
+    <string name="title_activity_conectar_red">Seleccione el dispositivo</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+
+</resources>

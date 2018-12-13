@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_r1_ncent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="58dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.dev.javier.redsensores.Nodo"
+    tools:showIn="@layout/activity_nodo"
+    android:background="#AAAAAAAA"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_weight="1">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tabla"
+            android:stretchColumns="1"
+            android:divider="#FFFF"
+            android:showDividers="middle"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <include layout="@layout/fila"></include>
+        </TableLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/boton_recibir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/RecibirDatos"
+        android:theme="@style/MyButton"
+        android:onClick="RecibirDatos"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

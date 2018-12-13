@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/R1NCentral"
+            android:icon="@drawable/ic_nodo_central"
+            android:title="@string/NCentral" />
+        <item
+            android:id="@+id/R1NUno"
+            android:icon="@drawable/ic_nodo_dist1"
+            android:title="@string/NUno"
+            android:visible="false"/>
+        <item
+            android:id="@+id/R1NDos"
+            android:icon="@drawable/ic_nodo_dist2"
+            android:title="@string/NDos"
+            android:visible="false"/>
+        <item
+            android:id="@+id/R1NTres"
+            android:icon="@drawable/ic_nodo_dist3"
+            android:title="@string/NTres"
+            android:visible="false"/>
+        <item
+            android:id="@+id/R1NCuatro"
+            android:icon="@drawable/ic_nodo_dist4"
+            android:title="@string/NCuatro"
+            android:visible="false"/>
+        <item
+            android:id="@+id/R1NCinco"
+            android:icon="@drawable/ic_nodo_dist5"
+            android:title="@string/NCinco"
+            android:visible="false"/>
+        <item
+            android:id="@+id/R1NSeis"
+            android:icon="@drawable/ic_nodo_dist6"
+            android:title="@string/NSeis"
+            android:visible="false"/>
+
+    </group>
+
+    <item android:title="@string/TitConfig">
+        <menu>
+            <item
+                android:id="@+id/Ajustes"
+                android:icon="@drawable/ic_action_settings"
+                android:title="@string/Ajustes" />
+            <item
+                android:id="@+id/Conexion"
+                android:icon="@drawable/ic_action_bluetooth"
+                android:title="@string/Conexion" />
+        </menu>
+    </item>
+
+</menu>
