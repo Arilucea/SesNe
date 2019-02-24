@@ -4,7 +4,3 @@ SesNe is a system that allows the creation of wireless sensor networks at a very
 ![Schematic](https://github.com/arilucea/SesNe/blob/master/Documentation%20(Spanish)/Schematic.jpg)
 </kbd>
 <p align="center">Operating diagram</p>
-
-## Electronic
-## Blockchain
-## App
